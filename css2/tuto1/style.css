@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+margin: 0;
+
+
+}
+body{
+    background-color: rgba(250, 215, 236, 0.707);
+   min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    padding:  20px 40px;
+   
+}
+.logo p{font-size: 20px;
+font-weight: 300;
+
+}
+
+
+.nav-link{
+    margin: 10px;
+    color: black;
+    text-underline-offset: ;
+}
+.grid-container{
+    display: flex;
+   justify-content: space-around;
+    padding: 30px;
+}
+.grid{display: flex;
+    justify-content: center;
+    align-items: center;
+text-shadow: 30px 5px 4px 3px;}
+   .head{
+    font-size:50PX;
+    
+    margin-bottom: 70px;
+    padding: 40px;
+
+   }
+  
