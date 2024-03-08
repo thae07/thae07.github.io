@@ -24,7 +24,7 @@ font-weight: 300;
 .nav-link{
     margin: 10px;
     color: black;
-    text-underline-offset: ;
+    text-underline-offset ;
 }
 .grid-container{
     display: flex;
