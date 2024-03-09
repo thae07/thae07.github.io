@@ -30,6 +30,7 @@ font-weight: 300;
     display: flex;
    justify-content: space-around;
     padding: 30px;
+   
 }
 .grid{display: flex;
     justify-content: center;
