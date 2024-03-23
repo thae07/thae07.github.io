@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/boostrap.bundle.min.css">
+    <style>
+        body{
+           width: 100%;
+            background-image: url(https://i.pinimg.com/736x/84/17/74/8417742e336002b7828fdb0fbefffda9.jpg);
+            background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           max-height: 100vh;
+           display: grid;
+        justify-content: center;
+        align-items: center;
+        }
+
+
+        #login{
+            width: 100%;
+            display: flex;
+            /* text-align: center; */
+            align-items: center;
+         min-height: 100vh;
+         justify-content: center;
+
+        }
+        .login-card{
+            position: relative;
+            width: 500px;
+            height:auto;
+        }
+        #image{
+            position: absolute;
+            top: -100px;
+            left:35%;
+      
+
+        }
+        .remember{
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid  " id="login">
+       <div class="row">
+        <div class="col-md-6 ">
+            <div class="login-card  rounded-3 text-white p-3 border border-2 shadow">
+                <div  id="image">
+                    <img src="./css/topper-de-bts-cake-topper-Topo-de-bolo-bts.webp" width=" 150px" class=" " alt="">
+                </div>
+                <h3 class="mt-5 text-center">Please login!</h3>
+                <form action="" method="post">
+                    <div class="mb-3"> 
+                        <label for="Email" class="form-label">Email Address</label>
+                        <input type="email " name="email" id="email" class="form-control rounded-5" placeholder="Enter your email address">
+                       </div>
+                    <div class="mb-3">
+                        <label for="Email" class="form-label rounded-5">Password</label>
+                        <input type="password " name="password" id="password" class="form-control rounded-5" placeholder="Enter yourpassword">
+                    </div>
+                    <div class="remember">
+                        <div class="mb-2 text-black">
+                            <label for="" class="form-label " ></label>
+                            <input type="checkbox" name="" id="">
+                            Remember me!
+                        </div>
+                        <div class="mb-2 text-black">
+                            <a href="" class="text-decoration-none">Forgot Password</a>
+                        </div>
+                    </div>
+                    
+                    
+                    <div>
+                        <div class="btn btn-info w-100 rounded-5 ">login</div>
+                    </div>
+                    <div class="text-center text-black mt-3">
+                        <span>Don't have an account?</span>
+                        <a href="./register.html" class="">Register</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+       </div>
+    </div>
+   
+  
+
+
+
+
+    <script src="./js/boostrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    
+</body>
+</html>
